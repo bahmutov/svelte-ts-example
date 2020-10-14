@@ -9,7 +9,8 @@
     "start": "sirv public",
     "validate": "svelte-check",
     "update:badges": "update-badge cypress cypress-svelte-unit-test",
-    "test": "cypress-expect run --passing 2"
+    "test": "cypress-expect run --passing 2",
+    "test:local": "start-test 5000 test"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^12.0.0",
@@ -24,6 +25,7 @@
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
+    "start-server-and-test": "1.11.5",
     "svelte": "^3.0.0",
     "svelte-check": "^0.1.0",
     "svelte-preprocess": "^4.0.0",
