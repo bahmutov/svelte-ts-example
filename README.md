@@ -12,7 +12,9 @@ npm install
 
 Then added component testing following instructions in [cypress-svelte-unit-test](https://github.com/bahmutov/cypress-svelte-unit-test)
 
-See [src](src) folder.
+See [src](src) folder for components and their tests
+
+![Component test](images/demo.png)
 
 [ci image]: https://github.com/bahmutov/svelte-ts-example/workflows/ci/badge.svg?branch=master
 [ci url]: https://github.com/bahmutov/svelte-ts-example/actions
