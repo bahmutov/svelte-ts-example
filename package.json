@@ -16,7 +16,7 @@
     "@rollup/plugin-typescript": "^4.0.0",
     "@tsconfig/svelte": "^1.0.0",
     "cypress": "4.11.0",
-    "cypress-expect": "2.1.2",
+    "cypress-expect": "2.1.1",
     "cypress-svelte-unit-test": "3.3.0",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
