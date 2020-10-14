@@ -8,7 +8,6 @@
     "dev": "rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check",
-    "test:component": "cypress-expect run --passing 1 --spec 'src/*.spec.ts'",
     "update:badges": "update-badge cypress cypress-svelte-unit-test",
     "test": "cypress-expect run --passing 2"
   },
