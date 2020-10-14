@@ -11,3 +11,5 @@ jobs:
 
       - name: Run tests 📦
         uses: cypress-io/github-action@v2
+        with:
+          command: npm run test:component
