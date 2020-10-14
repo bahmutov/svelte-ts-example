@@ -1,0 +1,13 @@
+name: ci
+on: push
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v1
+
+      - name: Run tests 📦
+        uses: cypress-io/github-action@v2
