@@ -1,5 +1,7 @@
 # Svelte TS Example [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url]
 
+![cypress version](https://img.shields.io/badge/cypress-4.11.0-brightgreen) ![cypress-svelte-unit-test version](https://img.shields.io/badge/cypress--svelte--unit--test-3.3.0-brightgreen)
+
 Created with
 
 ```
