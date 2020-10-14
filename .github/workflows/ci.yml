@@ -12,5 +12,6 @@ jobs:
       - name: Run all tests together 📦
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build
           start: npm start
           command: npm test
