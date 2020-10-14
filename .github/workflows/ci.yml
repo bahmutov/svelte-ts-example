@@ -9,7 +9,14 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v1
 
-      - name: Run tests 📦
+      - name: Run component tests 📦
         uses: cypress-io/github-action@v2
         with:
           command: npm run test:component
+
+      - name: Run all tests together 📦
+        uses: cypress-io/github-action@v2
+        with:
+          install: false
+          start: npm start
+          command: npm test
